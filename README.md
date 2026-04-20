@@ -1,4 +1,4 @@
-# daily-code 👨‍💻
+# 🗓️ daily-code 
 
 consistency is the key — one task, every single day.
 
@@ -9,7 +9,7 @@ a public log of my daily coding practice. every day i sit down, write some code 
 
 ---
 
-### languages
+### 🛠️ Languages
 
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://python.org)
 [![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/languages/csharp)
@@ -19,7 +19,7 @@ a public log of my daily coding practice. every day i sit down, write some code 
 
 ---
 
-### structure
+### 📂 Structure
 daily-code/
 ├── python/
 ├── csharp/
@@ -30,10 +30,7 @@ daily-code/
 ---
 
 ### where i get tasks from
-- [edabit.com](https://edabit.com) — small challenges
-- [codewars.com](https://codewars.com) — ranked katas
-- school exercises
-- whatever i feel like that day
+- mostly from ai (most creative imo)
 
 ---
 
