@@ -1,25 +1,40 @@
-# 🗓️ daily-code
+# daily-code 👨‍💻
 
-> *One task a day, every day.*
-
-A place where I document my daily coding practice — small scripts, exercises and challenges across different languages to track my progress and stay consistent.
+consistency is the key — one task, every single day.
 
 ---
 
-## 📂 Structure
+### what is this?
+a public log of my daily coding practice. every day i sit down, write some code and push it here. no matter how small.
+
+---
+
+### languages
+
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://python.org)
+[![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/languages/csharp)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
+
+---
+
+### structure
 daily-code/
 ├── python/
 ├── csharp/
-└── javascript/
+├── javascript/
+├── html-css/
+└── README.md
 
 ---
 
-## 🛠️ Languages
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+### where i get tasks from
+- [edabit.com](https://edabit.com) — small challenges
+- [codewars.com](https://codewars.com) — ranked katas
+- school exercises
+- whatever i feel like that day
 
 ---
 
-*consistency over perfection 💙*
+*day by day. line by line. 💙*
