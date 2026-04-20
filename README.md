@@ -19,13 +19,14 @@ a public log of my daily coding practice. every day i sit down, write some code 
 
 ---
 
-### 📂 Structure
-daily-code/
-├── python/
-├── csharp/
-├── javascript/
-├── html-css/
-└── README.md
+### structure
+
+    daily-code/
+    ├── python/
+    ├── csharp/
+    ├── javascript/
+    ├── html-css/
+    └── README.md
 
 ---
 
