@@ -31,7 +31,7 @@ a public log of my daily coding practice. every day i sit down, write some code 
 ---
 
 ### where i get tasks from
-- mostly from ai (most creative imo)
+- mostly from ai or my head (most creative imo)
 
 ---
 
