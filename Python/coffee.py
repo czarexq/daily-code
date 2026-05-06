@@ -3,7 +3,7 @@ print(menu)
 price = 0
 bought_list = ""
 
-#Note: Hiii guys!! Thanks for anyone that clicked on this, well if you don't mind i will tell you a bit of my plans. Okay so basically now i will just do this quick prototype later i will do late in JS because i need to practice it too and i know Python already. Yeahhh I plan to make a website simulating a coffee shop later so stay tunned!! Love you guys and sorry for not being active for so long i just had to figure myself out ykyk im overthinking too much sometimes. I promise to post more soon gotta get back in the grind 
+#Note [ps just copy it and then read its quite long]: Hiii guys!! Thanks for anyone that clicked on this, well if you don't mind i will tell you a bit of my plans. Okay so basically now i will just do this quick prototype later i will do late in JS because i need to practice it too and i know Python already. Yeahhh I plan to make a website simulating a coffee shop later so stay tunned!! Love you guys and sorry for not being active for so long i just had to figure myself out ykyk im overthinking too much sometimes. I promise to post more soon gotta get back in the grind 
 
 while True:
   
