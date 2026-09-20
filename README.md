@@ -31,7 +31,8 @@ a public log of my daily coding practice. every day i sit down, write some code 
 ---
 
 ### where i get tasks from
-- mostly from internet or my head 
+- mostly from internet or my head
+- it's a mess here like yk my practice area 
 
 ---
 
