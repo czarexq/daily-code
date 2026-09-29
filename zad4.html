@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokument</title>
+</head>
+<body>
+    Skrypt do obliczania równania kwadratowego. <br>
+    Podaj liczbę a:<input type="number" id="a"> <br>
+    Podaj liczbę b:<input type="number" id="b"> <br>
+    Podaj liczbę c:<input type="number" id="c"> <br>
+    Wynik to:<p id="wynik"></p>
+    <button onclick="oblicz()">Oblicz</button>
+
+    <script>
+        function oblicz() {
+            let a = document.getElementById("a").value;
+            let b = document.getElementById("b").value;
+            let c = document.getElementById("c").value;
+            let wynik_tekst = document.getElementById("wynik");
+            let x0 = 0;
+            let x1 = 0;
+            let x2 = 0;
+
+            let delta = (Math.pow(b, 2)) - (4 * a * c);
+            wynik_tekst.innerHTML = "Delta: " + delta
+            
+            if (delta > 0) {
+                x1 = ((-b-Math.sqrt(delta, 2)) / (2*a));
+                wynik_tekst.innerHTML += "<br>x1: " +x1;
+                x2 = ((-b+Math.sqrt(delta, 2)) / (2*a));
+                wynik_tekst.innerHTML += "<br>x2: " +x2;
+            }
+            else if (delta < 0) {
+                wynik_tekst.innerHTML = "Równanie nie ma rozwiązania!"
+            }
+            else if (delta == 0) {
+                x0 = ((-b)/(2*a));
+                wynik_tekst.innerHTML += "<br>x0: " +x0;
+            }
+        }
+    </script>
+</body>
+</html>
