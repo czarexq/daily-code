@@ -1,0 +1,85 @@
+* {
+    font-family: Arial;
+    margin: 5px;
+}
+
+
+#Basic {
+    width: 90%;
+    background-color: rgb(58, 70, 209);
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+}
+
+header {
+    font-size: 20px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 75px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;   
+    padding-bottom: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 360px;
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.706);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    padding: 25px;
+    
+}
+
+
+.center {
+
+    text-align: center;
+}
+
+#Pro {
+    width: 90%;
+    background-color: rgb(188, 38, 38);
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#VIP {
+    width: 90%;
+    background-color: rgb(188, 38, 38);
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+
