@@ -1,85 +1,68 @@
 * {
+    box-sizing: border-box;
     font-family: Arial;
-    margin: 5px;
-}
-
-
-#Basic {
-    width: 90%;
-    background-color: rgb(58, 70, 209);
-    margin: auto;
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 80px;
+    margin: 0;
 }
 
 header {
-    font-size: 20px;
-    width: 100%;
-    background-color: black;
+    background: #000;
     color: white;
-    height: 75px;
-    justify-content: center;
     text-align: center;
-    padding-top: 10px;   
-    padding-bottom: 30px;
+    padding: 30px;
 }
 
 main {
     display: flex;
     justify-content: center;
+    gap: 30px;
+    padding: 60px 20px;
 }
 
 section {
     width: 360px;
-    margin: 30px;
-    background-color: rgba(255, 255, 255, 0.706);
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
-    border-radius: 15px;
+    min-height: 600px;
     padding: 25px;
-    
-}
-
-
-.center {
-
     text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 6px #999;
 }
 
-#Pro {
+section h1,
+section h2 {
+    margin-bottom: 20px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+button {
+    display: block;
     width: 90%;
-    background-color: rgb(188, 38, 38);
-    margin: auto;
+    margin: 80px auto 0;
+    padding: 20px;
+    border: 0;
+    border-radius: 5px;
     color: white;
     font-size: 20px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    cursor: pointer;
 }
 
-#VIP {
-    width: 90%;
-    background-color: rgb(188, 38, 38);
-    margin: auto;
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    margin-top: 10px;
+.basic {
+    background: rgb(58, 70, 209);
 }
 
+.pro,
+.vip {
+    background: rgb(188, 38, 38);
+}
 
+.vip {
+    margin-top: 40px;
+}
 
+@media (max-width: 1100px) {
+    main {
+        flex-wrap: wrap;
+    }
+}
